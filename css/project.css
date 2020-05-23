@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+.bg-title {
+    background: url('../img/banner.png');
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    font-family: 'Anton', sans-serif;
+    color: aliceblue;
+}
+
+@media (max-width: 576px) {
+    .bg-title {
+        background: blue;
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: center;
+    }
+}
